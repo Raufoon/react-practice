@@ -1,0 +1,16 @@
+.NavButton {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 2.5rem;
+}
+
+.NavButton aside {
+  margin-left: 1rem;
+  line-height: 1.3rem;
+}
+
+.active {
+  background-color: black !important;
+}

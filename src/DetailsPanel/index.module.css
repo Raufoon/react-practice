@@ -1,0 +1,30 @@
+.DetailsPanel {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  fill: white;
+}
+
+.DetailsPanel button {
+  background: none;
+  border: none;
+}
+
+.DetailsPanel svg {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.DetailsPanel > *:first-child {
+  background-color: crimson;
+  color: white;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detailsSection {
+  width: 25vw;
+  text-align: center;
+}

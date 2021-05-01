@@ -1,0 +1,17 @@
+.Layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.Layout > *:first-child,
+.Layout > *:last-child {
+  position: sticky;
+  top: 0;
+}
+
+.Layout main {
+  flex: 1;
+  height: 110vh;
+  text-align: center;
+}

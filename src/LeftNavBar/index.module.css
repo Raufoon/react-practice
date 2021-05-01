@@ -1,0 +1,34 @@
+.LeftNavBar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: crimson;
+  color: white;
+  fill: white;
+  max-width: 200px;
+}
+
+.LeftNavBar svg {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.LeftNavBar > * {
+  margin: 0;
+  padding: 1rem;
+}
+
+.LeftNavBar > *:hover {
+  background-color: darkred;
+}
+
+.LeftNavBar > *:nth-last-child(3) {
+  margin-top: auto;
+}
+
+.toggleButton {
+  align-self: flex-start;
+}
+.toggleButton:hover {
+  background-color: inherit;
+}
